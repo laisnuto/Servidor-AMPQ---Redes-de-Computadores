@@ -26,10 +26,10 @@ O número 5672 indica a porta que o servidor estará rodando.
 
 ## Visão Geral
 
-# Conexões com o Servidor:
+### Conexões com o Servidor:
 Após iniciar, o servidor irá escutar por conexões na porta especificada na linha de comando da execução do código. O protocolo de comunicação segue o padrão AMQP e começa com um handshaking que inclui a negociação da versão do protocolo, configuração da conexão, abertura da conexão e abertura do canal.
 
-# Funcionalidades
+### Funcionalidades
 Uma vez que a conexão esteja estabelecida, o cliente pode:
 Declarar uma fila: Para criar uma fila nova.
 Publicar uma mensagem: Envia uma mensagem para uma fila específica.
