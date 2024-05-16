@@ -45,7 +45,7 @@ O servidor foi projetado para ser multithreaded, permitindo múltiplos clientes 
 Mutexes são usados para garantir que as operações em dados compartilhados sejam thread-safe.
 As filas são identificadas pelo nome. Se um cliente declarar duas filas com o mesmo nome, o programa pode não funcionar como o esperado.
 
-# Dependências
+## Dependências
 
     Processador: i5-1135G7 2.40GHz x86_64
     Versão do gcc: gcc 9.4.0
